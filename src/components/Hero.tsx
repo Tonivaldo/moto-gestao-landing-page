@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Play, CheckCircle, BarChart3, Users, Calendar } from 'lucide-react';
+import { Play, CheckCircle } from 'lucide-react';
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -56,56 +56,13 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Dashboard Preview */}
+          {/* Hero Image */}
           <div className="animate-scale-in">
-            <div className="bg-white rounded-2xl shadow-2xl p-6 border">
-              <div className="bg-gray-50 rounded-lg p-4 mb-4">
-                <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-lg font-semibold text-gray-900">Dashboard MotoGestão</h3>
-                  <div className="flex space-x-2">
-                    <div className="w-3 h-3 bg-red-400 rounded-full"></div>
-                    <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                    <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-                  </div>
-                </div>
-                
-                <div className="grid grid-cols-3 gap-4 mb-6">
-                  <div className="bg-white p-4 rounded-lg border">
-                    <BarChart3 className="h-8 w-8 text-primary mb-2" />
-                    <p className="text-sm text-gray-600">Receita Mensal</p>
-                    <p className="text-xl font-bold text-gray-900">R$ 45.280</p>
-                  </div>
-                  <div className="bg-white p-4 rounded-lg border">
-                    <Users className="h-8 w-8 text-blue-500 mb-2" />
-                    <p className="text-sm text-gray-600">Clientes Ativos</p>
-                    <p className="text-xl font-bold text-gray-900">156</p>
-                  </div>
-                  <div className="bg-white p-4 rounded-lg border">
-                    <Calendar className="h-8 w-8 text-green-500 mb-2" />
-                    <p className="text-sm text-gray-600">Locações Hoje</p>
-                    <p className="text-xl font-bold text-gray-900">23</p>
-                  </div>
-                </div>
-
-                <div className="bg-white rounded-lg border p-4">
-                  <h4 className="font-semibold text-gray-900 mb-3">Status da Frota</h4>
-                  <div className="space-y-2">
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm text-gray-600">Honda CB 600F</span>
-                      <span className="text-sm bg-green-100 text-green-800 px-2 py-1 rounded">Disponível</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm text-gray-600">Yamaha MT-07</span>
-                      <span className="text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded">Locada</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm text-gray-600">BMW G 310 GS</span>
-                      <span className="text-sm bg-yellow-100 text-yellow-800 px-2 py-1 rounded">Manutenção</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <img 
+              src="/lovable-uploads/fd6fdb71-139c-4483-8e6c-763f3bda14c2.png"
+              alt="Gestor de locadora usando tablet com dashboard do MotoGestão"
+              className="w-full h-auto rounded-2xl shadow-2xl"
+            />
           </div>
         </div>
       </div>

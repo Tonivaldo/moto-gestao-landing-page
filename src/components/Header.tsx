@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Menu, X, Bike } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,11 +22,12 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="bg-primary p-2 rounded-lg">
-              <Bike className="h-6 w-6 text-white" />
-            </div>
-            <span className="text-2xl font-bold text-gray-900">MotoGestão</span>
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/c124f4f8-e2c4-4f2a-b366-0f1e1ef51b7d.png" 
+              alt="MotoGestão Logo" 
+              className="h-10 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
